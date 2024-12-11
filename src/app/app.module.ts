@@ -8,6 +8,7 @@ import { ComponentComponent } from './pages/component/component.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CapitalizadoPipe } from './pipes/capitalizado.pipe';
+import { IntroduccionComponent } from './inicio/introduccion/introduccion.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CapitalizadoPipe } from './pipes/capitalizado.pipe';
     ComponentComponent,
     NavbarComponent,
     FooterComponent,
-    CapitalizadoPipe
+    CapitalizadoPipe,
+    IntroduccionComponent
   ],
   imports: [
     BrowserModule,
